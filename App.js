@@ -58,7 +58,9 @@ const Verse = ({ verse }) => {
         }} />
       )}
       <TouchableOpacity onPress={() => handleRead(verse)}>
-        <Text style={styles.readButton}>Read</Text>
+        <Text style={ styles.readButton }>
+          <Ionicons name='mic-circle-outline' size={26} color={"slateblue"} />
+        </Text>
       </TouchableOpacity>
     </View>
   );
